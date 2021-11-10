@@ -1,0 +1,258 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.nav{
+	width: 960px;
+	height: auto;
+	background: #000;
+}
+
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+
+.nav ul li a{
+	display: block;
+	padding: 20px 35px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase; 
+	text-decoration: none;
+
+}
+.nav ul li a:hover{
+	color: yellow;
+	background: red;
+}
+
+.nav ul li ul{
+	position: absolute;
+	background: #000;
+	left: -9999px;
+}
+
+.nav ul li:hover ul{
+	left: 0px;
+}
+
+.nav ul li ul li{
+	width: 200px;
+	border-bottom: 1px solid #fff;
+}
+
+.banner{
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.about-logo img{
+	width: 410px;
+	height: auto;
+	margin: 5px 0px;
+	margin-bottom: 20px;
+
+}
+.about-text{
+	width: 450px;
+	height: auto;
+	padding: 0px 50px;
+}
+
+.about-text h1{
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 50px;
+
+
+}
+.about-text p{
+	font-size: 16px;
+	color: purple;
+	line-height: 22px;
+}	
+
+.row{
+	overflow: auto;
+}
+
+.col{
+	float: left;
+}
+
+.about-section{
+	background: #DCE7E5;
+	padding: 20px 0px;
+	margin-top: 20px;
+}
+
+.title{
+	width: 180px;
+	height: auto;
+}
+
+.title h2{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 20px;
+}
+
+.service{
+	width: 280px;
+	height: auto;
+	border: 1px solid #fff;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+}
+
+.service h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}	
+
+.service-section{
+	background: #B7BBB2;
+	padding: 40px 19px;
+	margin-top: 10px;
+}
+
+.serv-icon i{
+	font-size: 100px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	transition: .5s;
+}
+
+.serv-icon i:hover{
+	color: red;
+    transform: scale(.8);
+}
+
+.contact{
+	background: gray;
+	padding: 15px 15px 15px 80px;
+	box-shadow: 0px 0px 10px #ccc;
+	width: 200px;
+	position: relative;
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.cont-icon i{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	float: left;
+	top: 8px;
+	left: 15px;
+	background: #222px;
+	text-align: center;
+	color: #000;
+	line-height: 50px;
+	font-size: 50px;
+	transition: .5s;
+
+}
+
+.cont-icon i:hover{
+	color: red;
+	transform: scale(.8);
+}
+
+.cont-text p{
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.contact-section{
+	background: #222;
+	padding: 40px 0px;
+	margin-top: 30px;
+}
+
+.comtact-from{
+	width: 620px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.inputTag input{
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 15px 10px;
+    width: 80%;
+    border: 0;
+    margin: 8px 0px;
+}
+
+.inputTag textarea{
+	width: 515px;
+	height: auto;
+	border: 0;
+}
+
+.inputTag button{
+	width: 83%;
+	padding: 15px 0px;
+	
+	
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 4px;
+	border: 0;
+}
+
+footer{
+	width: 960px;
+	margin: 0 auto;
+	height: auto;
+	background: lightgray;
+	color: #000;
+	padding: 50px 0px;
+}
+
+.footer-icon{
+	float: right;
+}
+
+.footer-icon i{
+	font-size: 40px;
+	padding: 0px 10px;
+	transition: .5s;
+}
+
+.footer-icon i:hover{
+	color: darkred;
+	transform: scale(.8);
+}
+
+.footer-text{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px 20px;
+}
+
